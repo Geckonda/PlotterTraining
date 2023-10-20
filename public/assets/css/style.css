@@ -1,0 +1,76 @@
+@font-face {
+    src:url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam&display=swap");
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+}
+:root{
+    --main-dark: #21252A;
+    --foreign-dark: #aebfda;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    background-color: #718096;
+    color: var(--main-dark);
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 1 auto;
+    padding: 25px 0;
+}
+footer{
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--main-dark);
+    color: white;
+}
+
+nav{
+    padding: 0 20px;
+}
+
+select{
+    text-align: center;
+}
+
+
+.btn-own{
+    background-color: var(--main-dark);
+    color: white;
+}
+.btn-own:hover{
+    color: gray;
+}
+span{
+    font-weight: bold;
+    color: var(--main-dark);
+}
+
+.line-divider{
+    height: 2px;
+    width: 100% ;
+    background-color: var(--main-dark);
+    margin-bottom: 20px;
+}
+.card{
+    border: 0px;
+    border-radius: 3%;
+}
+.card-body{
+    background-color: var(--foreign-dark);
+    border: 0px;
+    border-radius: 3%;
+}
+.card-field{
+    background-color: #21252A;
+    color: white;
+}
